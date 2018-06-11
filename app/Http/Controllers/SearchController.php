@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Contracts\PostRepositoryInterface;
-use App\Post;
 use Illuminate\Http\Request;
 
 class SearchController extends Controller
