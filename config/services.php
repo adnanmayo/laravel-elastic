@@ -35,4 +35,9 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'search' => [
+
+        'hosts' => explode(',', env('SEARCH_HOSTS')),
+    ],
+
 ];
